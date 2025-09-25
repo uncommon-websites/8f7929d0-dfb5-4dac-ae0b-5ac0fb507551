@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	title="Transform workplace learning into personalized brain training"
+	subtitle="AI-powered content adaptation that matches individual learning preferences, delivering 70% higher completion rates for L&D teams at fast-growing companies."
+	centered={true}
+	customers={[
+		{
+			name: "Sarah Mitchell",
+			position: "Learning & Development Manager",
+			imageSrc: "/generated/image-a-professional-woman-learning-manager-in.webp"
+		},
+		{
+			name: "Marcus Johnson", 
+			position: "Training Director",
+			imageSrc: "/generated/image-a-professional-male-training-director-in.webp"
+		},
+		{
+			name: "Lisa Chen",
+			position: "Corporate Learning Specialist", 
+			imageSrc: "/generated/image-a-professional-woman-employee-in-her-lat.webp"
+		},
+		{
+			name: "Ahmed Hassan",
+			position: "HR Learning Leader",
+			imageSrc: "/generated/image-a-professional-male-hr-leader-in-his-mid.webp"
+		},
+		{
+			name: "Jasmine Williams",
+			position: "Development Specialist",
+			imageSrc: "/generated/image-a-professional-woman-development-special.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/spotify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/hubspot.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/atlassian.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
