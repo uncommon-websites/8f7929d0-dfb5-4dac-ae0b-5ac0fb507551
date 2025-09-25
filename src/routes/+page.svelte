@@ -108,5 +108,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Ready to turn training into results?"
+	subtitle="This isn't another LMS. It's learning that works."
+	description="See how other fast-growing teams are reaching 70% higher course completion with zero content overhaul. Our platform integrates with your current tools and improves outcomes in weeks—not months."
+	imageSrc="/generated/image-happy-successful-female-learning-manager.webp"
+	callsToAction={[
+		{
+			href: "/demo",
+			label: "Get a demo today",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Talk to sales",
+			variant: "secondary"
+		}
+	]}
+/>
