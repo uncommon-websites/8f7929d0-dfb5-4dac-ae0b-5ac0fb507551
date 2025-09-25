@@ -26,56 +26,51 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Learning that actually sticks"
+	subtitle="Smarter training, built for brains"
+	imageSrc="/generated/image-photorealistic-candid-scene-of-a-diverse.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We saw L&D managers struggling with the same frustrating cycle: hours spent creating training programs, only to watch completion rates hover around 30%. Employees weren't lazy or uninterested—they were drowning in one-size-fits-all content that didn't match how they actually learn. Some people need visuals, others learn by doing, and many prefer audio explanations. Traditional corporate training ignored these differences entirely.",
+		"That's when we realized the solution wasn't just better content—it was smarter delivery. We developed AI that observes how each employee engages with material and adapts in real-time. Visual learners get more diagrams and infographics. Hands-on learners get interactive simulations. Audio learners get rich narration and discussions. Suddenly, the same content becomes personally meaningful for everyone.",
+		"Today, our partners see 70% higher completion rates because learning finally feels natural instead of forced. We're not just changing how companies train—we're proving that when you respect how people actually learn, they surprise you with what they can accomplish. Our vision is simple: transform the entire $366B corporate training industry by making every learning experience as personal as having your own dedicated coach."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
 	subtitle="Your partners in innovation."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Haroon Choudery",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
+			bio: "Passionate about transforming corporate learning through personalized, brain-based training approaches.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
+			name: "Sarah Martinez",
+			position: "VP of Learning Science",
+			bio: "Former neuroscientist turned learning engineer, designing AI that adapts to individual learning styles.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			name: "Marcus Chen",
+			position: "Head of Product",
+			bio: "Enterprise software veteran focused on creating intuitive tools that L&D teams actually love using.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -97,8 +92,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to transform your training?"
+	subtitle="See personalized learning in action"
+	description="Join L&D leaders seeing 70% higher completion rates with learning that adapts to each employee's preferred style."
 />
