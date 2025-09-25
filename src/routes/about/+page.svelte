@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Personal learning",
+			description: "Every brain learns differently, so every training experience should be uniquely adapted."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Science-driven",
+			description: "Using neuroscience and learning psychology to create training that actually sticks."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Growth focused",
+			description: "Empowering every employee to unlock their potential through personalized development paths."
 		}
 	];
 </script>
@@ -92,7 +92,8 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to transform your training?"
-	subtitle="See personalized learning in action"
-	description="Join L&D leaders seeing 70% higher completion rates with learning that adapts to each employee's preferred style."
+	title="Stop fighting low completion rates"
+	subtitle="Start seeing 70% better engagement"
+	description="Join L&D leaders who've transformed their training from homework nobody wants to do into brain training that employees actually finish. See personalized learning adapt to every employee's learning style in real-time."
+	imageSrc="/generated/image-professional-training-manager-at-a-tidy-.webp"
 />
