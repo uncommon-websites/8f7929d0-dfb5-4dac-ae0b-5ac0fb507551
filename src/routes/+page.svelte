@@ -58,31 +58,30 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Elena Rodriguez",
+			position: "Learning & Development Director",
+			company: "TechFlow Dynamics",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We went from 23% to 84% course completion rates in just 3 months. The AI adaptation to individual learning styles eliminated our biggest training bottleneck and saved us over $180,000 in reduced training time.",
+			image: "/generated/image-photorealistic-editorial-portrait-of-a-p.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "David Kim",
+			position: "VP of People Operations",
+			company: "Growth Ventures",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Instead of spending 6 weeks onboarding new hires, we now complete comprehensive training in 2 weeks with 95% knowledge retention. The personalized learning paths reduced our time-to-productivity by 67%.",
+			image: "/generated/image-professional-asian-male-training-directo.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Asha Patel",
+			position: "Chief Learning Officer",
+			company: "InnovateCorp",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The risk of compliance failures dropped to zero after implementing their brain training approach. Our audit preparation time went from 3 months to 3 weeks, and employee confidence in regulatory knowledge increased by 89%.",
+			image: "/generated/image-candid-scene-of-a-professional-female-le.webp"
 		}
 	]}
 />
